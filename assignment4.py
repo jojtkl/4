@@ -64,19 +64,19 @@
 # Create a function calculate_area(length, width=5) that calculates the area of a rectangle. If only the length is provided, the function should assume the width is 5.
 # Show how the function behaves when called with and without the width argument.
 #By calling the input and default width area
-length=int(input('Enter the number:'))
-def calculate_area(length,width=5):
-    area=length*width
-    print(area)
-area1=calculate_area(length)
-print(area1)
+#length=int(input('Enter the number:'))
+#def calculate_area(length,width=5):
+#    area=length*width
+#    print(area)
+#area1=calculate_area(length)
+#print(area1)
 
 #providing both values for length and width
 
-print('## providing both values for length and width ##')
+#print('## providing both values for length and width ##')
 
-def calculate_area2(length,width=5):
-    area=length*width
-    print(area)
-area2=calculate_area2(10,8)
-print(area2)
+#def calculate_area2(length,width=5):
+#    area=length*width
+#    print(area)
+#area2=calculate_area2(10,8)
+#print(area2)
